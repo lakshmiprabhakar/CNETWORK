@@ -35,3 +35,31 @@ case $state in
     ;;
 esac
 
+////////////////////////////////////////
+OUTPUT
+mca@cscc2d78:~$ gedit state.sh
+^C
+mca@cscc2d78:~$ ./state.sh
+bash: ./state.sh: Permission denied
+mca@cscc2d78:~$ chmod +x state.sh
+mca@cscc2d78:~$ ./state.sh
+Enter the name of an Indian state:
+Lakshadweep
+Main Language: Malayalam
+mca@cscc2d78:~$ ./state.sh
+Enter the name of an Indian state:
+Andhra Pradesh
+Main Language: Telugu
+mca@cscc2d78:~$ ./state.sh
+Enter the name of an Indian state:
+Gujarat
+Main Language: Unknown
+mca@cscc2d78:~$ ./state.sh
+Enter the name of an Indian state:
+Assam
+Main Language: Assamese
+mca@cscc2d78:~$ ./state.sh
+Enter the name of an Indian state:
+Tamil Nadu
+Main Language: Tamil
+------------------------------
