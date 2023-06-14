@@ -22,4 +22,26 @@ fi
 done
 echo -e "\n There are $count number of prime numbers"
 
+////////////////////////
+output
+Enter the lower limit,greater than 1
+10
+Enter the upper limit
+50
+The prime numbers are:
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+
+ There are 11 number of prime numbers
+
+
 
